@@ -46,4 +46,4 @@ Kostroma State Technological University(2013-2017). Economics, Finance and credi
 ---
 
 ### English: ###
-Level: B1+ (FCE
+Level: B1+ (FCE)
