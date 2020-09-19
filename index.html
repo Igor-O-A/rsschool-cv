@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .meow {
+      font: italic bold 24px/30px Arial, sans-serif;
+      color: azure;
+      background-color: rgb(0, 0, 0);
+      padding: 100px;
+    }
+
+    @media screen and (max-width: 768px){
+      .meow {
+        padding: 20px 10px;
+      }
+    }
+
+    .photo {
+      position: fixed;
+      top: 100px;
+      right: 10%;
+    }
+
+    @media screen and (max-width: 1366px){
+      .photo {
+        position: static;
+        top: 0px;
+        right: 0px;
+      }
+    }
+
+    .photo img {
+      width: 100%;
+      height: auto;
+    }
+
+    h1 {
+      text-decoration: underline;
+      color: rgb(238, 225, 39);
+      text-shadow: 2px 2px 2px rgb(211, 39, 211);
+    }
+
+    h3 {
+      font: italic small-caps bold 30px/30px Arial, sans-serif;
+      color: rgb(238, 225, 39);
+      text-shadow: 2px 2px 2px rgb(211, 39, 211);
+    }
+
+    img {
+      border: 10px solid rgb(238, 225, 39);
+      text-shadow: 2px 2px 2px rgb(211, 39, 211);
+    }
+
+    .text {
+      max-width: 50%;
+    }
+
+    @media screen and (max-width: 1366px){
+      .text {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="meow">
+      <div class="photo">
+        <img src="https://avatars1.githubusercontent.com/u/70834643?s=400&u=21cc9ab1cdb86791a8a19dcdcc8fc17d49a547aa&v=4"
+          alt="photo" height="400px" width="400px">
+      </div>
+      <div class="text">
+        <h1>Igor Afanasev</h1>
+        <h3>Contact:</h3>
+        <p>Location: Kostroma, Russia</br>
+          Telephone number: +7 (910) 929 87-87</br>
+          E-mail: ioafanasev@aol.com</br></p>
+        <h3>Expirience:</h3>
+        <p>2017 - present: Sberbank</br>
+          Back-office (08.2017-05.2018):</br>
+          Specialist: issuance of bank cards and support bank operations.</br>
+          Front-office (05.2018-Present):</br>
+          Specialist (05.2018-06.2018): direct sales of banking products to individuals.</br>
+          Manager (06.2018-Present): sales to small buisiness</p>
+        <h3>Strenghts:</h3>
+        <ul>
+          <li>Communicative</li>
+          <li>Responsible</li>
+          <li>Empathic</li>
+          <li>Friendly</li>
+          <li>Easy-going</li>
+          <li>Stress-resistant</li>
+          <li>Fast learner</li>
+        </ul>
+        <h3>Skills:</h3>
+        <p>Basic JS, CSS and HTML</p>
+        <h3>IT experience:</h3>
+        <p>Undefined:)</p>
+        <h3>Education:</h3>
+        <p>Kostroma State Technological University(2013-2017). Economics, Finance and credit, Bachelor.</p>
+        <h3>English:</h3>
+        <p>Level: B1+ (FCE)</p>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
